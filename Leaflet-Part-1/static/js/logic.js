@@ -44,7 +44,7 @@ d3.json(url).then(function (data) {
 
   let myMap = myLeaflet.map("map", {
     center: [15.6993, 42.1244],
-    zoom: 2,
+    zoom: 3,
   });
 
   // Adding a tile layer (the background map image) to our map:
